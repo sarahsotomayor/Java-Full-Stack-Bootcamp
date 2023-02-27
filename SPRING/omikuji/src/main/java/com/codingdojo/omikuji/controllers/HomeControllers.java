@@ -41,7 +41,7 @@ public class HomeControllers {
     		HttpSession session
     		) {
 		String formData = String.format(
-				"In %s years you will live in %s with %s as your roommate, %s. The next time you see a %s, you will have good luck. Also, %s.",
+				"In %s years you will live in %s with %s as your roommate selling %s for a living. The next time you see a %s, you will have good luck. Also, %s.",
 				number, city, name, hobby, livingThing, compliment);
 		session.setAttribute("formData", formData);
 		System.out.println(formData);
